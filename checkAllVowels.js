@@ -13,4 +13,4 @@ function checkVowel(str) {
     return result
 }
 
-console.log(checkVowel('AaaaA');
+console.log(checkVowel('AaaaA'))
