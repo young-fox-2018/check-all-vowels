@@ -1,5 +1,5 @@
 function checkVowels(str){
-    str = str.split("")
+    str = str.toLowerCase().split("")
     var vowels = "aiueo"
 
     for (var i = 0 ; i < str.length ; i++){
@@ -22,9 +22,9 @@ function checkVowels(str){
     }
 }
 
-console.log(checkVowels("aaaa")); //TRUE
-console.log(checkVowels("bcef")); //FALSE
-console.log(checkVowels("eeef")); //FALSE
-console.log(checkVowels("apa")); //FALSE
-console.log(checkVowels("eee")); //FALSE
+console.log(checkVowels("aaAA")); // TRUE
+console.log(checkVowels("bcef")); // FALSE
+console.log(checkVowels("eEef")); // FALSE
+console.log(checkVowels("aPa")); // FALSE
+console.log(checkVowels("eee")); // TRUE
 
